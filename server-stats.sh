@@ -21,3 +21,12 @@ echo ""
 
 echo "Top 5 processes by memory"
 ps -eo pid,comm,%mem --sort=-%mem | head -6
+echo ""
+
+echo "Uptime"
+uptime
+echo ""
+
+echo "OS release"
+uname -a
+echo ""
